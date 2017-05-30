@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>branching01</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gitgraph.js/1.11.2/gitgraph.min.js"></script>
+	<script src="./createGitGraph.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/gitgraph.js/1.11.2/gitgraph.min.css">
+</head>
+<body>
+<canvas id="gitGraph" class="graph"></canvas>
+<script>
+	var gg = createGitGraph("gitGraph");
+
+	gg.addStep(function() {
+		this.feature01 = this.staging.branch("feature01");
+		this.feature01.commit("init feature01 branch");
+	}).addStep(function() {
+		this.f01t01 = this.feature01.branch("f01-task01");
+		this.f01t01.commit("f01-task01 #001 - ticketId");
+	}).addStep(function() {
+		this.f01t01.commit("f01-task01 #001 - ticketId");
+		this.f01t01.commit("f01-task01 #001 - ticketId");
+	}).addStep(function() {
+		this.f01t01.merge(this.feature01);
+		this.f01t01.delete();
+	}).addStep(function() {
+		this.f01t02 = this.feature01.branch("f01-task02");
+		this.f01t02.commit("f01-task02 - working.");
+	}).addStep(function() {
+		this.f01t02.merge(this.feature01);
+	}).addStep(function() {
+		this.feature01.merge(this.staging);
+	}).addStep(function() {
+		this.staging.merge(this.master);
+	});
+</script>
+</body>
+</html>
+
+
