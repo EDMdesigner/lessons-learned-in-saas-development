@@ -17,7 +17,11 @@
 			url: "http://blog.edmdesigner.com/lessons-learned-in-saas-development/"
 		},
 		{
-			title: "A Git Branching Workflow in SaaS Development - The Review ASAP Policy"
+			title: "A Git Branching Workflow in SaaS Development and the Review ASAP Policy",
+			url: "http://blog.edmdesigner.com/git-branching-workflows-in-saas-development-and-the-reivew-asap-policy/"
+		},
+		{
+			title: "Clean Code, Coding Patterns and Code Reviews"
 		},
 		{
 			title: "Project Management at an SaaS Company"
