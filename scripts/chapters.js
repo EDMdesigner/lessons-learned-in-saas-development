@@ -49,7 +49,7 @@
 	actPostIdx = parseInt(actPostIdx);
 
 	document.write('<div id="posts-toc">');
-	document.write('<p>This article is part of the <a href="http://blog.edmdesigner.com/posts/modern-html-email-tutorial">Modern HTML Email Tutorial</a> which discusses the following topics:</p>');
+	document.write('<p>This post is part of the <a href="http://blog.edmdesigner.com/posts/modern-html-email-tutorial">Lessons Learned in SaaS Development</a> article series which discusses the following topics:</p>');
 
 	document.write("<ul>");
 	for (var idx = 0; idx < posts.length; idx += 1) {
