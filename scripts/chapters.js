@@ -18,7 +18,7 @@
 		},
 		{
 			title: "Git Branching Workflows in SaaS Development and the Review ASAP Policy",
-			url: "https://blog.edmdesigner.com/git-branching-workflows-in-saas-development-and-the-reivew-asap-policy/"
+			url: "https://blog.edmdesigner.com/git-branching-workflows-in-saas-development-and-the-review-asap-policy/"
 		},
 		{
 			title: "Managing Full-time Employees at a Growing SaaS Company",
