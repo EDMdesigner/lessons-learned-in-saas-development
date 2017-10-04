@@ -14,20 +14,21 @@
 	var posts = [
 		{
 			title: "Lessons Learned in SaaS Development - Introduction",
-			url: "http://blog.edmdesigner.com/lessons-learned-in-saas-development/"
+			url: "https://blog.edmdesigner.com/lessons-learned-in-saas-development/"
 		},
 		{
 			title: "Git Branching Workflows in SaaS Development and the Review ASAP Policy",
-			url: "http://blog.edmdesigner.com/git-branching-workflows-in-saas-development-and-the-reivew-asap-policy/"
+			url: "https://blog.edmdesigner.com/git-branching-workflows-in-saas-development-and-the-reivew-asap-policy/"
+		},
+		{
+			title: "Managing Full-time Employees at a Growing SaaS Company",
+			url: "https://blog.edmdesigner.com/managing-full-time-employees-at-a-growing-saas-company/"
+		},
+		{
+			title: "Managing Part-time Employees at a Growing SaaS Company"
 		},
 		{
 			title: "Clean Code, Coding Patterns and Code Reviews"
-		},
-		{
-			title: "Project Management at an SaaS Company"
-		},
-		{
-			title: "Tools That Help Your Team To Be Productive"
 		},
 		{
 			title: "Dockerize everything and Private NPM"
